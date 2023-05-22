@@ -17,5 +17,6 @@ for i in range(10):
     print(cur_tof)
     if abs(normal_height - cur_tof) > 15:
         drone.flip_forward()
+        drone.move_down(40)
 drone.land()
 drone.end()

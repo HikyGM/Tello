@@ -17,5 +17,10 @@ drone.move_down(100)  # вниз
 drone.rotate_clockwise(90)  # по часовой стрелке
 drone.rotate_counter_clockwise(90)  # против часовой стрелки
 
+drone.flip_forward()  # Кувырок вперёд
+drone.flip_back()  # Кувырок назад
+drone.flip_left()  # Кувырок влево
+drone.flip_right()  # Кувырок вправо
+
 drone.land()  # посадка
 drone.end()  # отключение

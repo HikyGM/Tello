@@ -22,5 +22,6 @@ drone.flip_back()  # Кувырок назад
 drone.flip_left()  # Кувырок влево
 drone.flip_right()  # Кувырок вправо
 
+
 drone.land()  # посадка
 drone.end()  # отключение
